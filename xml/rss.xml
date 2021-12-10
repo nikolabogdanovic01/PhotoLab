@@ -1,0 +1,12 @@
+<rss version="2.0">
+    <channel>
+        <title>Photo Lab</title>
+        <link>https://nikolabogdanovic01.github.io/PhotoLab/index.html</link>
+        <description>Fotografisanje vasih najdrazih dogadjaja.</description>
+        <item>
+            <title>Galerija</title>
+            <link>https://nikolabogdanovic01.github.io/PhotoLab/gallery.html</link>
+            <description>Pogledajte moju galeriju što pre i ne propustite nove radove!</description>
+        </item>
+    </channel>
+</rss>

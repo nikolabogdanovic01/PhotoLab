@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sr-Latn-RS">
+
+<head>
+	<title>Photo Lab | Kontakt</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Više informacija o lokaciji studija, kontakt telefon, email adresa, zakazivanje fotografisanja." />
+	<meta name="keywords" content="fotografija, galerija, slika, radovi, vencanja, krstenja, rodjendani" />
+	<meta name="author" content="Nikola Bogdanović" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="title" content="Photo Lab" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="shortcut icon" href="img/cameraa.png" />
+	<script src="https://kit.fontawesome.com/dacb7f7594.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li class="menu-item-home menu-item">
+					<a href="index.html">Početna</a>
+				</li>
+				<li class="menu-item-about menu-item">
+					<a href="about.html">O autoru</a>
+				</li>
+				<li class="menu-item-gallery menu-item">
+					<a href="gallery.html">Galerija</a>
+				</li>
+				<li class="menu-item-impressions menu-item">
+					<a href="impressions.html">Utisci</a>
+				</li>
+				<li class="menu-item-contact menu-item">
+					<a class="active" href="contact.html">Kontakt</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="social-media">
+		<ul>
+			<li>
+				<a href="https://www.facebook.com" target="_blank">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://flickr.com" target="_blank">
+					<i class="fab fa-flickr"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<main>
+		<div class="contact-content">
+			<div class="contact-info">
+				<h1>Kontakt informacije</h1>
+				<p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Zdravka Čelara 16 <br />&nbsp;&nbsp;&nbsp;&nbsp;
+					11000 Beograd</p>
+				<p><i class="fas fa-phone"></i>&nbsp;&nbsp;+381 11 345678</p>
+				<p><i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="#">photolab@gmail.com</a></p>
+				<div class="google-map">
+					<iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+						src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=ict%20college%2011000%20beograd+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+				</div>
+			</div>
+			<div class="contact-form-area">
+				<h1>Zakažite vaše fotkanje</h1>
+				<form class="contact-form">
+					<div class="form-row">
+						<label for="name">Ime i prezime <span>*</span></label>
+						<input type="text" id="name" name="name" placeholder="Unesite svoje ime i prezime"
+							class="form-input form-input-size" required />
+					</div>
+					<div class="form-row">
+						<label for="email">E-mail <span>*</span></label>
+						<input type="email" id="email" name="email" placeholder="Unesite svoj email"
+							class="form-input form-input-size" required />
+					</div>
+					<div class="form-row">
+						<label for="event">Vrsta događaja</label>
+						<select id="event" name="event" class="form-input form-select-size">
+							<option>Rođendan</option>
+							<option>Venčanje</option>
+							<option>Krštenje</option>
+							<option>Ostalo</option>
+						</select>
+					</div>
+					<div class="form-row">
+						<label for="date">Izaberite datum <span>*</span></label>
+						<input type="date" id="date" name="date" class="form-input form-date-size" required />
+					</div>
+					<div class="form-row">
+						<label for="comment">Detaljnije</label>
+						<textarea id="comment" rows=5 placeholder="Recite nam nesto više o Vašim željama"
+							class="form-input"></textarea>
+					</div>
+					<button type="submit" class="form-input form-button">Posalji</button>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p><i class="far fa-copyright"></i>Copyright 2020 - <a href="about.html">PhotoLab</a></p>
+		<div class="xml"><a href="xml/rss.xml" target="_blank"><i class="fas fa-rss"></i></a>
+			<a href="xml/sitemap.xml" target="_blank"><i class="fas fa-sitemap"></i></a></div>
+	</footer>
+</body>
+
+</html>
